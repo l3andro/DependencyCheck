@@ -1,0 +1,6 @@
+- id: dependecyCheck
+  name: Detect publicly disclosed vulnerabilities
+  description: Detect publicly disclosed vulnerabilities
+  entry: dependency-check --scan
+  language: golang
+  pass_filenames: false
